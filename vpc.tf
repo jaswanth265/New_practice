@@ -78,6 +78,7 @@ resource "aws_route_table" "terraform-public"{
 #     }
 # }
 
+#################################### Security Group #########################################
 
 module "sg" {
   source = "terraform-aws-modules/security-group/aws"
